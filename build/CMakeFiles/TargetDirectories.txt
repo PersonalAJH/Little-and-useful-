@@ -12,6 +12,7 @@
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/list_install_components.dir
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/std_msgs_generate_messages_lisp.dir
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/run_tests.dir
+/mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/main.dir
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/download_extra_data.dir
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/doxygen.dir
 /mnt/c/Users/JH/Desktop/code/Little-and-useful-/build/CMakeFiles/roscpp_generate_messages_py.dir
