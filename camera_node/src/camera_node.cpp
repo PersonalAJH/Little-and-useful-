@@ -19,7 +19,8 @@ int CameraNode::run(){
    }
 
    cap >> img;
-   imshow("camera img  ", img);
+   imshow("camera imga", img);
+   printf("test\n");
    return 0;
 }
 
