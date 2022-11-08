@@ -19,7 +19,7 @@ int CameraNode::run(){
    }
 
    cap >> img;
-   imshow("camera img", img);
+   imshow("camera img ", img);
    return 0;
 }
 
