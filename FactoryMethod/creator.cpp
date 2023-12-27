@@ -1,3 +1,4 @@
+//자료 출처 https://refactoring.guru/ko/design-patterns
 #include <string>
 using namespace std;
 
