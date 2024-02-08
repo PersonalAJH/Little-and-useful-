@@ -20,3 +20,4 @@ LQR 의 장점
 RObustness : 적잘한 가중치 선택을 통해 외란과 노이즈에 대해서 효과가 미비함(?) 강인함
 
 참고 : https://onnons.tistory.com/133
+https://youtu.be/E_RDCFOlJx4?si=aZ9lHDpZl8ukFoFV
