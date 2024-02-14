@@ -52,7 +52,7 @@ void TeleopRobot::keyLoop()
   puts("Use 'AD' keys to turn0 the robot left and right.");
   puts("Press 'Q' to quit.");
 
-  for(;;)
+  for(;;)  // 이건 무한루프랑 같은의미 while(true) do while(true) 와 같음 공백이기 떄문에 항상 true 인거라고 함 원래 for(int i = 0; i < 10; i++) 에서 모두 공백으로 냅둬서 ;; 만 남는거임
   {
     // get the next event from the keyboard  
     if(read(kfd, &c, 1) < 0)
