@@ -1,0 +1,18 @@
+https://youtu.be/pSfZutP9H-U?si=S9n1SEHYVi83O9jz  시스템엔지니어링 part 1 . 시스템엔지니어링이란?
+
+정확한 강의 정리보다는 내 느낀점위주가 섞인 정리라서 궁금하면 다시 강의를 보는편이 좋음
+시스템 엔지니어링이란? 
+1. 복잡한 상황에 대해서 식이나 설명가능한 수준으로 만드는 작업(complex to design and build as a single monolitic entity). 전체 시스템을 생각하고 시스템의 외부와 내부 환경의 상호작용을 이해하는 과정 
+
+2. 우선 설명할 것은 Project Need 는 3개의 구성이 되어있다. (Stakeholders, project manageer, enginnering specialist)
+3. 시스템엔지니어링이란 매우 추상적인 내용을 각각의 작은 component 로 나누고 하나의 프로젝트로 다시 만드는 작업
+4. 시스템 엔지니어링이 없으면 추후에 어떤 내용이 추가되면 그걸 제대로 다룰수가 없다. 사실 일례로 우리는 이미 하고있는데 처음 사람들이 다 모여서 brainstorming 을 하고 연관되는 사람들끼리 어떻게 할지 정하는게 그것
+5. 순서를 아래와 같음
+    a. Stakeholders needs (what dose the system need to do?)
+    b. concept exploration (Examine potential system concepts)
+    c. performance requirement (what are the key characteristics)
+    d. Functional analysis and formulations(functional, physical logical architectures)
+    e. Detailed development (low-level requirements define subsystems configuration)
+    f. Enginnering design (detail design and manufactureing)
+    g. Integration and test (build and verify validate system)
+
