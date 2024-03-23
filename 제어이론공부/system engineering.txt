@@ -31,3 +31,7 @@ https://youtu.be/UTm1ORuZ1dg?si=WUMC5fyOFqSXlhHt 시스템 엔지니어링 part3
 - 시스템은 기능, logical component, physical componet 들의 집합이나 조합입니다. 그리고 아키 텍처는 이러한 요소들 사이의 상호작용과 서로 보완하는 지를 나타낸 것임
 - 시스템 설계를 시작할 때 이 물질이나 에너지, 신호가 어떻게 흐르는지 확인해야하고 What, Who, Where 이 구현되는지 확인해야함
 - Functional architectures에서 가장 중요한것은 내가 해결해야 하는 문제를 점점 작게 Decompose 하고 어떤 상호작용이 있어야 하는지 확인해야한다(stakeholder의 요구를 얻기위해)
+
+
+https://youtu.be/Iblo2Il-pOA?si=bpIasJSPn-itJJgN 시스템 엔지니어링 part4 요구사항의 개요
+ 
