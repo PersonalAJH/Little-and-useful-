@@ -1,0 +1,36 @@
+equality 제한조건 h(x) = 0
+inequality 제한조건 g(x) <= 0
+
+제한조건이 맞는 solution -> feasible solution
+
+
+Convex Optimization Problem
+: f(x)가 convex 고 feasible set 이 convex 
+
+convex 정의 
+- 모든 x1,x2 가 S 에 포함될 때 (S = set)
+a*x1 + (1-a)*x2 가 S 에 포함된다
+
+feasible set 이 convex 이다. 의 정의
+- 모든 x1, x2 가 정의역에 포함될 때 ( 0 < a < 1)
+- f(a*x1 + (1-a)*x2) <= a(f(x1)) + (1-a)*f(x2)
+
+식만봐선 모름-> 이걸 포물선(2차함수)라고 생각했을 때 x1, x2 를 x 축에 잡고 y1,y2 를 직선으로 이으면 그 안에 들어가는 f(x)가 있음 
+그게 convex optimization을 풀기위한 feasible set
+참고로 f(x) 가 convex 일 때 -f(x) 는 concave
+
+변수가 스칼라일때
+미분가능하다면 모든 x 에 대해서 f''(x) >= 0 이다(2번 미분했을 때 0보다 크다) == convex function (2차함수 생각하면됨)
+
+
+변수가 벡터일때 
+Hessian matrix 를 통해서  Hessian Matrix 가 positive semi definite == convex function (벡터 z를 transpose 하고 Hessian Matrix 와 곱했을 때 -> z^T * H * z >= 0)
+
+
+
+convex Optimization 하는 이유 -> local minimum이 global minimun 이기 때문에 
+
+
+
+
+
