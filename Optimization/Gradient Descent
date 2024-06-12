@@ -1,0 +1,60 @@
+https://youtu.be/_3Rrl4_EGO8?si=do8ja4oZj55NZGeB 혁펜하임 강의 참고
+Gradient Descent(경사하강법)
+
+!!가까운 local minimun, maximun 을 찾아주는 방법!!
+
+중요한것은 방향(gradient), 얼마나 (step size)
+
+**************
+
+알고리즘의 순서
+1. set initial x0 
+2. x(k-1) = x(k) - a * df/dx  (a 값을 어떻게 정하는지도 중요)
+3. repeat 
+
+*****************
+
+
+z = x + n (n은 에러값(normal distribution)) 일때 z 값이 주어지고 x(참값) 을 찾는 방법
+
+f = (z-x)^2 을 최소값으로 가져가는 값 x 를 구하면됨
+
+벡터일때는 
+aij * aji 이렇게 해야된다. (transpose) 
+
+f = (z_ - Ax_)^T * (z_ - Ax_) (_는 벡터, ^T 는 transpose) 
+이럴 때 cost function 을 f 로 잡으면 x_ 를 찾는 그런 cost function
+** 이런 cost function 이런 결과값은 스칼라 값으로 나와야한다 여기서 transpose(벡터A) * 벡터A 이고 벡터A 는 크기가 1 by n 이기 때문에 결과값은 스칼라
+
+
+**************
+
+(벡터일 때) 알고리즘의 순서 -> 정확한 증명? 은 동영상 참고
+1. set initial x0 
+2. x(k-1) = x(k) - 2A^T * (z_ - A * x(k)) * a  (a 는 step size)
+3. repeat 
+
+*****************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
