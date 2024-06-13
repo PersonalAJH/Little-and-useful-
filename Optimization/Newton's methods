@@ -1,4 +1,29 @@
 https://youtu.be/MlZoafOnMS0?si=zjBJ2kzaxx69ngz6 혁펜하임 강의 참고
 
-Newton Method는 gradient descent 에서 a(alpha) 값을 잘 측정하자 라는 알고리즘 
+Newton Method는  a(alpha) 값을 잘 측정하자 라는 알고리즘 
+
+zero finding 어떤 특정 y = 0 이 되는 값을 찾기 위한 방법에서 접선을 구해서 y= 0 이 되는 부분을 iteration 을 통해서 구하는 방식
+
+
+*************************
+알고리즘 
+
+x(k+1) = x(k) - 1/f'(x(k)) * f(x(k))
+
+*****************************
+
+그래프를 직접 그려서 해보면 됨
+newton method 는 alpha 값을 어떻게 해라 라는 지시가 있는 gradient descent 와 비슷
+
+*****************************
+
+벡터일떄 알고리즘 
+x 가 벡터
+x(k+1) = x(k) + (A^T * A)^-1 * A^T * (z - A*x(k))
+
+*****************************
+
+x(k+1) = x(k) + (A^T * A)^-1 * A^T * (z - A*x(k)) 
+여기에서 A가 invertable 가능하다면 계산해보면
+x(k+1) = (A^T * A)^-1 * A^T z -> least squares solution 임
 
