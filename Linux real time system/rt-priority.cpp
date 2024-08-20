@@ -17,6 +17,6 @@ int linux_realtime_priority_setting()
 
 	if( error != 0 ) {
         // 실패시 1을 반환 
-		perror("sched_setcheduler error ");
+		perror("sched_setcheduler error \n");
 	}
 }

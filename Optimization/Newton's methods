@@ -5,6 +5,13 @@ Newton Method는  a(alpha) 값을 잘 측정하자 라는 알고리즘
 zero finding 어떤 특정 y = 0 이 되는 값을 찾기 위한 방법에서 접선을 구해서 y= 0 이 되는 부분을 iteration 을 통해서 구하는 방식
 
 
+
+
+
+
+
+
+
 *************************
 알고리즘 
 
@@ -39,3 +46,14 @@ quasi newton methods
 -Newton-Raphson 방법의 단점을 보완하기 위해 개발된 것으로, 특히 Hessian 행렬의 계산과 역행렬 계산의 어려움을 줄이기 위해 사용
 -Quasi-Newton 방법은 Hessian 행렬을 직접 계산하지 않고, 근사치를 점진적으로 갱신한ㄷ.
 - B0 (제일 처음순간) 만 jacobian 으로 구하고 나머지는 관계식을 통해서 구함
+
+
+
+
+
+
+
+
+
+
+
