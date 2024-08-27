@@ -17,6 +17,7 @@ void* high_priority_task(void* arg){
     for (int i = 0; i < 100000000; i++);
 
     pthread_mutex_lock(&mutex);
+    // some task if it exist
     printf("High priority task acquired the mutex.\n");
     pthread_mutex_unlock(&mutex);
     return NULL;
